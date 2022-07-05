@@ -233,7 +233,7 @@ li {
       transition: color 0.5 ease-in-out; }
 
 .header-container {
-  background: url("/dist/img/showcase.jpeg") no-repeat center center/cover;
+  background: url("../img/showcase.jpeg") no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff; }

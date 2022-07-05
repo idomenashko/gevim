@@ -1,0 +1,113 @@
+$website-width:1200px;
+$main-color:#4EC16B;
+$secondary-color: #3A7CBA;
+$dark-color: #333;
+$medium-color:#ccc;
+$light-color: #f4f4f4;
+$white-color:#fff;
+$bg-image:url('/dist/img/showcase.jpeg');
+
+// Text Classes
+h1{
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+h2{
+  font-size:2.5rem;
+}
+h3{
+  font-size: 1.7rem;
+}
+p{
+  font-size: 1.1rem;
+  padding-bottom: 5px;
+}
+
+.p-size-mid{
+  font-size: 1.3rem;
+}
+// Padding Classes
+.pb-1{
+  padding-bottom: 120px;
+}
+.py-1{
+  padding: 0 50px; 
+
+}
+// Btn Clasess
+
+.btn{
+  padding: 0.5rem 2rem;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 5px;
+ 
+}
+
+.btn-primary{
+  background: $main-color;
+  color:$dark-color;
+  &:hover{
+    opacity: 0.9;
+    color: #fff;
+  }
+}
+.btn-secondary{
+  background: $secondary-color;
+  color:$white-color;
+  &:hover{
+    opacity: 0.9;
+    color: #fff;
+  }
+}
+.btn-dark{
+  background: $dark-color;
+  color:$white-color;
+  &:hover{
+    opacity: 0.9;
+    color: #fff;
+  }
+}
+.btn-light{
+  background: $light-color;
+  color:$dark-color;
+  &:hover{
+    opacity: 0.9;
+    color: #ccc;
+  }
+}
+
+.bottom-line{
+  height: 3px;
+  width: 3rem;
+  background: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.card{
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  align-items: center;
+  padding: 1rem;
+}
+// Para Design
+
+.lead{
+  text-align: right;
+  align-items: center;
+  padding: 0 50px; 
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.center-title{
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+}
